@@ -20,7 +20,7 @@ public class GenCharacter {
         }else if(type == 2){
             character = new PhysicalCharacter("Knight" , "assets/knight.png" , basedDef ,basedRes) ;
         }else{
-            character = new PureDamageCharacter("Berserker" , "assets/berserker.png" , basedDef ,basedRes);
+            character = new PureDamageCharacter("Battlemage" , "assets/battlemage.png" , basedDef ,basedRes);
         }
         return  character ;
     }

@@ -118,15 +118,7 @@ public class AllCustomHandler {
                             return ;
                         }
                     }
-                    case pure : {
-                        // System.out.println("Somebody you might know.");
-                        if( ((Armor) retrievedEquipment).getName().equals("Apron")){
-                            break;
-                        }else{
-                            return ;
-                        }
-                        
-                    }
+
                     default : {
                         System.err.println("Error");
                         return;
